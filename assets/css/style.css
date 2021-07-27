@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(120deg, #292826, #141413);
+    min-height: 100vh;
+    
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 4.5rem;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.start-btn, .highS-btn{
+    padding: 1.3rem 0;
+    font-size: 2rem;
+    width: 15rem;
+    border: none;
+    background: #f0c723;
+    border-radius: 0.7rem;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+    color: #292826;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 300;
+
+}
+
+.start-btn:hover, .highS-btn:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 242, 125, 0.3);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.container button i {
+    color: #292826;
+    margin-left: 0.5rem;
+}
+
+
+/* quiz container */
+
+.hide {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content:center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.header-container {
+    margin-bottom: 2rem;
+    border-bottom: 0.1rem solid #f0c723;
+    font-size: 2.6rem;
+    font-family: 'Indie Flower', cursive;
+    color: #f0c723;
+    text-align: center;
+}
+
+
+.question-text{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.text {
+    font-size: 2.6rem;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    max-width: 80%;
+}
+
+.option-container{
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.option-container ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.option-container ul li{
+    margin-bottom: 1.4rem;
+    background-color: #f0c723;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-css {
+    transform: scale(1.6);
+    cursor: pointer;
+}
+
+.label-text{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    
+}
+.option-container ul li:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 242, 125, 0.3);
+    transform: scale(1.03);
+}
+
+.footer {
+    border-top: 0.1rem solid #f0c723;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 1rem;
+}
+
+.submit {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+    border: none;
+    background: #f0c723;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    color: #292826;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+
+}
+.submit:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 242, 125, 0.3);
+    transform: scale(1.03);
+}
+
+.num {
+    font-size: 2.3rem;
+    color:#f0c723;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+
