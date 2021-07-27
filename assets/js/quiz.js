@@ -45,8 +45,8 @@ var Quiz = [
 
 var currentQ = 0;
 var score = 0;
-
-const questionEl = document.querySelector(".text")
+const submitform = document.querySelector(".endgame");
+const questionEl = document.querySelector(".text");
 const a_text = document.querySelector("#a_text");
 const b_text = document.querySelector("#b_text");
 const c_text = document.querySelector("#c_text");
@@ -60,12 +60,13 @@ function countdown() {
     var timeleft = 30;
 
     var timeInterval = setInterval(function(){
-        if(currentQ < Quiz.length){
+        if(currentQ < Quiz.length && timeleft >= 0){
             timer.textContent = timeleft;
             timeleft--;
         }
         else{
             clearInterval(timeInterval);
+
         }
         
     }, 1000)
@@ -118,7 +119,7 @@ btn.addEventListener("click", function() {
             loadQuiz();
         }
         else{
-            alert("you done")
+            alert("You've done it with a score of " +  score)
         }
     }
     

@@ -168,4 +168,33 @@ body{
 }
 
 
+.endgame{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-btn {
+    padding: 0;
+    font-size: 1.5rem;
+    border: none;
+    background: #f0c723;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    color: #292826;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 300;
+}
 
+.playername{
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10rem;
+    outline: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+}
