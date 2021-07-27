@@ -55,9 +55,9 @@ const btn = document.querySelector(".submit");
 const numQ = document.querySelector(".numQ");
 const answerEls = document.querySelectorAll(".input-css");
 const timer = document.querySelector(".time");
-
+var timeleft = 30;
 function countdown() {
-    var timeleft = 30;
+    
 
     var timeInterval = setInterval(function(){
         if(currentQ < Quiz.length && timeleft >= 0){
@@ -68,6 +68,7 @@ function countdown() {
             clearInterval(timeInterval);
 
         }
+        return timeleft;
         
     }, 1000)
 }
@@ -119,7 +120,7 @@ btn.addEventListener("click", function() {
             loadQuiz();
         }
         else{
-            alert("You've done it with a score of " +  score)
+            alert("You've done it with a score of " +  score + " with a " + timeleft + " left")
         }
     }
     

@@ -37,58 +37,6 @@ B. 9
 C. 11
 D. 8
 
-{
-        Question: "What is the fastest land animal?",
-        Answer: {
-            a: 'cheetah',
-            b: 'monkey',
-            c: 'Dog',
-            d: 'Cat'
-        },
-        correct: 'A',
+# deployed site 
+https://abjj1999.github.io/Quiz/
 
-    },
-    {
-        Question: "What is the largest planet in the solar system?",
-        Answer: {
-            a: 'Earth',
-            b: 'Mars',
-            c: 'Jupiter',
-            d: 'Saturn'
-        },
-        correct: 'C',
-
-    },
-    {
-        Question: "What is the largest organ on the human body?",
-        Answer: {
-            a: 'Liver',
-            b: 'Brain',
-            c: 'Heart',
-            d: 'Skin'
-        },
-        correct: 'D',
-
-    },
-    {
-        Question: "Where is the White House located?",
-        Answer: {
-            a: 'Texas',
-            b: 'Ohio',
-            c: 'Wahington DC',
-            d: 'Virginia'
-        },
-        correct: 'C',
-
-    },
-    {
-        Question: "How many planets are in the solar system?",
-        Answer: {
-            a: '10',
-            b: '9',
-            c: '11',
-            d: '8'
-        },
-        correct: 'A',
-
-    },
